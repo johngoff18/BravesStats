@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @player.name %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @player.url %>
+</p>
+
+<p>
+  <strong>Ops:</strong>
+  <%= @player.ops %>
+</p>
+
+<p>
+  <strong>Ba:</strong>
+  <%= @player.ba %>
+</p>
+
+<p>
+  <strong>Hr:</strong>
+  <%= @player.hr %>
+</p>
+
+<p>
+  <strong>Rbi:</strong>
+  <%= @player.rbi %>
+</p>
+
+<%= link_to 'Edit', edit_player_path(@player) %> |
+<%= link_to 'Back', players_path %>

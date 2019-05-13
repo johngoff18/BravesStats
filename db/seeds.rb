@@ -1,7 +1,50 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Player.create!([
+  {name: 'Tyler Flowers', 
+  url: 'https://www.baseball-reference.com/players/f/flowety01.shtml', 
+  ops: 0.777, 
+  ba: 0.276, 
+  hr: 3, 
+  rbi: 6},
+  {name: 'Freddie Freeman', 
+  url: 'https://www.baseball-reference.com/players/f/freemfr01.shtml', 
+  ops: 0.929, 
+  ba: 0.308, 
+  hr: 7, 
+  rbi: 23},
+  {name: 'Ozzie Albies', 
+  url: 'https://www.baseball-reference.com/players/a/albieoz01.shtml', 
+  ops: 0.767, 
+  ba: 0.269, 
+  hr: 7, 
+  rbi: 20},
+  {name: 'Dansby Swanson', 
+  url: 'https://www.baseball-reference.com/players/s/swansda01.shtml', 
+  ops: 0.819, 
+  ba: 0.268, 
+  hr: 6, 
+  rbi: 25},
+  {name: 'Josh Donaldson', 
+  url: 'https://www.baseball-reference.com/players/d/donaljo02.shtml', 
+  ops: 0.853, 
+  ba: 0.258, 
+  hr: 6, 
+  rbi: 19},
+  {name: 'Ronald Acuna Jr.', 
+  url: 'https://www.baseball-reference.com/players/a/acunaro01.shtml', 
+  ops: 0.852, 
+  ba: 0.279, 
+  hr: 8, 
+  rbi: 23},
+  {name: 'Ender Inciarte', 
+  url: 'https://www.baseball-reference.com/players/i/inciaen01.shtml', 
+  ops: 0.618, 
+  ba: 0.218, 
+  hr: 2, 
+  rbi: 9},
+  {name: 'Nick Markakis', 
+  url: 'https://www.baseball-reference.com/players/m/markani01.shtml', 
+  ops: 0.854, 
+  ba: 0.299, 
+  hr: 4, 
+  rbi: 23}
+])
