@@ -6,6 +6,7 @@
   <thead>
     <tr>
       <th>Name</th>
+	  <th>Thumbnail</th>
       <th>Url</th>
       <th>Ops</th>
       <th>Ba</th>
@@ -19,6 +20,7 @@
     <% @players.each do |player| %>
       <tr>
         <td><%= player.name %></td>
+		<td><%= image_tag player.thumbnail_url || "acuna.jpg" %></td>
         <td><%= player.url %></td>
         <td><%= player.ops %></td>
         <td><%= player.ba %></td>
